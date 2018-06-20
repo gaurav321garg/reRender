@@ -1,0 +1,3 @@
+[submodule "src/re-render"]
+	path = src/re-render
+	url = git@github.com:gaurav321garg/re-render.git

@@ -1,0 +1,3 @@
+rootProject.name = 'reRender'
+
+include ':app'
