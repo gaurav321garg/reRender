@@ -28,29 +28,29 @@ class App extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Label value={'dsda'}/>
-                <LinearGradient start={{x:1,y:54}} end={{x:50,y:90}} colors={['steelblue','blue']}><Text>sadsa</Text></LinearGradient>
-                <ProgressBar   color='red'
-                               indeterminate={true}
-                               progress={5000}
-                               trackColor={'blue'}/>
+                {/*<Label value={'dsda'}/>*/}
+                {/*<LinearGradient start={{x:1,y:54}} end={{x:50,y:90}} colors={['steelblue','blue']}><Text>sadsa</Text></LinearGradient>*/}
+                {/*<ProgressBar   color='red'*/}
+                               {/*indeterminate={true}*/}
+                               {/*progress={5000}*/}
+                               {/*trackColor={'blue'}/>*/}
                 {/*<RadioGroup title={'dsada'}/>*/}
                 {/*<RadioButton  title={'ddd'} checked={''}/>*/}
                 {/*<RecyclerView dataSource={['a','b']}/>*/}
-                <Spinner/>
+                {/*<Spinner/>*/}
                 <TextArea/>
-                <TextInputWeb/>
-                <TimePicker/>
-                <AutoComplete list={['a','b']}/>
-                <CButton title={'gagfa'} onPress={()=>console.log('button pressed')}/>
-                <CarouselComponent>
-                <View style={{height:400,width:400,backgroundColor:'red'}}><Text>asda</Text></View>
-                <View style={{height:400,width:400,backgroundColor:'red'}}><Text>adsf</Text></View>
-                <View style={{height:400,width:400,backgroundColor:'red'}}><Text>5645</Text></View>
-                <View style={{height:400,width:400,backgroundColor:'red'}}><Text>2434</Text></View>
-                <View style={{height:400,width:400,backgroundColor:'red'}}><Text>r42</Text></View>
-                <View style={{height:400,width:400,backgroundColor:'red'}}><Text>7etrg</Text></View>
-                </CarouselComponent>
+                {/*<TextInputWeb/>*/}
+                {/*<TimePicker/>*/}
+                {/*<AutoComplete list={['a','b']}/>*/}
+                {/*<CButton title={'gagfa'} onPress={()=>console.log('button pressed')}/>*/}
+                {/*<CarouselComponent>*/}
+                {/*<View style={{height:400,width:400,backgroundColor:'red'}}><Text>asda</Text></View>*/}
+                {/*<View style={{height:400,width:400,backgroundColor:'red'}}><Text>adsf</Text></View>*/}
+                {/*<View style={{height:400,width:400,backgroundColor:'red'}}><Text>5645</Text></View>*/}
+                {/*<View style={{height:400,width:400,backgroundColor:'red'}}><Text>2434</Text></View>*/}
+                {/*<View style={{height:400,width:400,backgroundColor:'red'}}><Text>r42</Text></View>*/}
+                {/*<View style={{height:400,width:400,backgroundColor:'red'}}><Text>7etrg</Text></View>*/}
+                {/*</CarouselComponent>*/}
             </View>
         );
     }
